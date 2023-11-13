@@ -64,7 +64,7 @@ export default memo(function App() {
           <p>{message}</p>
         ))}
       </div>
-      <input autoFocus={true} placeholder={placeholder} type="text" />
+      <input aria-label={placeholder} autoFocus={true} placeholder={placeholder} type="text" />
     </Fragment>
   );
 });
