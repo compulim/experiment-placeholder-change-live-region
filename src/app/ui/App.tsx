@@ -22,7 +22,7 @@ export default memo(function App() {
         } else if (messages.length === 2) {
           return [...messages, 'This is the third message. A quick brown fox jumped over the lazy dogs.'];
         } else if (messages.length === 3) {
-          return [...messages, 'This is the foruth message. A quick brown fox jumped over the lazy dogs.'];
+          return [...messages, 'This is the fourth message. A quick brown fox jumped over the lazy dogs.'];
         } else if (messages.length === 4) {
           return [...messages, 'This is the fifth message. A quick brown fox jumped over the lazy dogs.'];
         } else if (messages.length === 5) {
